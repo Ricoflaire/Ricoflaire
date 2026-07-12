@@ -1,0 +1,9 @@
+/* Add styles to the body */
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+ /*Add style to the container */
+ .container {
+    background-color: #f4f4f4;
+ }
