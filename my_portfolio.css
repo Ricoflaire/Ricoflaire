@@ -1,0 +1,59 @@
+/* Reset default margins and paddings */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+ }
+ h1 {
+  font-size: 19px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black
+ }
+ .shaded {
+  background: #d0d0ff;
+ }
+
+ /*HERO SECTION*/
+  .hero {
+    height: 60vh; /*full screen height*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135eg, #1e3c72, #2a5298);
+    color:#00ff88;
+    text-align: center;
+    padding: 20px;
+
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  
+  }
+
+  .hero .btn {
+    padding: 12px 24px;
+    margin: 5px;
+    background: white;
+    color: #2a5298;
+    border-radius:6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+
+  }
+
+  .hero .btn:hover {
+    background: #f1f1f1;
+
+  }
+
+
+  
